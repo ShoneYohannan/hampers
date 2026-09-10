@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd hampers && npm install && npm run build",
+  "outputDirectory": "hampers/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
