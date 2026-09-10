@@ -1,9 +1,12 @@
 {
   "name": "hampers-workspace",
   "private": true,
+  "workspaces": [
+    "hampers"
+  ],
   "scripts": {
     "dev": "npm --prefix hampers run dev",
-    "build": "npm --prefix hampers run build",
+    "build": "npm --prefix hampers install && npm --prefix hampers run build",
     "preview": "npm --prefix hampers run preview"
   }
 }

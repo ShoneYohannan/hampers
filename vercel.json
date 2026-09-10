@@ -1,5 +1,6 @@
 {
-  "buildCommand": "cd hampers && npm install && npm run build",
+  "installCommand": "npm --prefix hampers install",
+  "buildCommand": "npm --prefix hampers run build",
   "outputDirectory": "hampers/dist",
   "rewrites": [
     {
